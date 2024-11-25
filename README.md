@@ -31,6 +31,6 @@ v1.0 [elstar.zip](https://github.com/Jaslayer/ElStar-hacker/releases/download/v1
 2. 進入EL★STAR副本，跑到跳舞機畫面。
 3. 在**第一次倒數進度條 開始倒數時**按下`\`鍵，開始跳舞。
 4. 發呆。通關。
-5. 連刷副本時，重複2~4步驟。
+5. 連刷副本時，重複第2~4步驟。
 - 按下`Ctrl`+`\`，可關閉程式。
 ![pic](pic/countdown.png)
