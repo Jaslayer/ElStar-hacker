@@ -1,7 +1,7 @@
 # EL★STAR 2 Hacker
 
 ## 下載
-v1.0 [elstar.zip](https://github.com/Jaslayer/ElStar-hacker/releases/download/v1.0/elstar.zip)
+v1.1 [elstar.zip](https://github.com/Jaslayer/ElStar-hacker/releases/download/v1.1/elstar.zip)
 
 ## 初始設定
 1. 將`elstar.zip`解壓縮

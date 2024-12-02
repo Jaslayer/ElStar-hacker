@@ -108,34 +108,18 @@ ShowResult(seq) {
 }
 
 $\:: {
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-
-    NextStage()
-
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-
-    NextStage()
-
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-    seq := DetectImagesInRange()
-    Sendkey(seq)
-
-    NextStage()
-
-    Sleep 4500
+    Loop 3 {
+        Loop 3 {
+            seq := DetectImagesInRange()
+            if (seq.Length != 10) { 
+                MsgBox "偵測失敗" 
+                return
+            }
+            Sendkey(seq)
+        }
+        NextStage()
+    }
+    Sleep 4300
 
     Send "{Up down}"
     Sleep delay
